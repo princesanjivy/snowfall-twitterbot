@@ -11,7 +11,7 @@ api = twitter.Api(cred.get("CONSUMER_KEY"),
 
 
 
-url = 'mongodb+srv://prince:qwerty12345@snow-princebot-lgc4v.mongodb.net/test?retryWrites=true&w=majority'
+url = 'mongodb+srv://{username}:{password}@snow-princebot-lgc4v.mongodb.net/test?retryWrites=true&w=majority'
 client = pymongo.MongoClient(url)
 
 db = client["id"]
